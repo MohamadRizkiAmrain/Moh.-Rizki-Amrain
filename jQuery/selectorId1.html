@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <p id="myParagraph">Ini Adalah sebuah paragraf</p>
+    <button id="changeTextButton">Ubah Teks</button>
+    <script>
+      $(document).ready(function () {
+        $("#changeTextButton").click(function () {
+          $("#myParagraph").text("Text telah diubah!");
+        });
+      });
+    </script>
+  </body>
+</html>

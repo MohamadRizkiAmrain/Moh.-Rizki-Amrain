@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contoh Hasil pada javascript</title>
+  </head>
+  <body>
+    <!-- Menggunakan teks dokumen -->
+    <script>
+      document.write("Teks ini akan ditulis di dokumen.");
+    </script>
+
+    <!-- Menggunakan alert -->
+    <script>
+      alert("Halo. ini adalah pesan dari JavaScript!");
+    </script>
+
+    <!-- Menggunakan console developer -->
+    <script>
+      console.log("Teks ini akan Ditulis di dokumen.");
+    </script>
+
+    <!-- menggunakan innerHTML atau innerText -->
+    <div id="target"></div>
+    <script>
+      document.getElementById("target").innerHTML =
+        "Teks ini akan ditampilkan di elemen dengan ID target.";
+    </script>
+
+    <!-- menggunakan prompt -->
+    <script>
+      var nama = prompt("masukan nama anda :");
+      alert("Halo, " + nama + "!");
+    </script>
+
+    <!-- Menggunakan elemen HTML dan DOM manipulation -->
+    <p id="Hasil"></p>
+    <script>
+      document.getElementById("Hasil").innerHTML =
+        "Hasil Perhitungan : 10 + 5 = " + (10 + 5);
+    </script>
+  </body>
+</html>
